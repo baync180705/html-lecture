@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Lecture Example">
+    <meta name="author" content="Your Name">
+    <title>HTML Lecture Example</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the HTML Lecture</h1>
+        <p>Understanding the structure and elements of an HTML document.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#basic-tags">Basic Tags</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#media">Media</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h2>Introduction to HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard language for creating web pages.</p>
+            <p>It uses a series of elements to structure content on the web.</p>
+        </section>
+
+        <!-- Basic Tags Section -->
+        <section id="basic-tags">
+            <h2>Basic HTML Tags</h2>
+            <article>
+                <h3>Headings</h3>
+                <p>HTML provides six levels of headings, from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</p>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </article>
+            <article>
+                <h3>Paragraphs and Text Formatting</h3>
+                <p>This is a paragraph. You can use <strong>bold</strong>, <em>italic</em>, and <u>underline</u> text.
+                </p>
+                <p>Use <code>&lt;br&gt;</code> for line breaks and <code>&lt;hr&gt;</code> for horizontal rules:</p>
+                <p>Line 1<br>Line 2</p>
+                <hr>
+            </article>
+            <article>
+                <h3>Lists</h3>
+                <p>Ordered List:</p>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+                <p>Unordered List:</p>
+                <ul>
+                    <li>Item A</li>
+                    <li>Item B</li>
+                    <li>Item C</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms">
+            <h2>HTML Forms</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                <label for="traveling">Traveling</label><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"
+                    placeholder="Enter your message"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <!-- Tables Section -->
+        <section id="tables">
+            <h2>HTML Tables</h2>
+            <table border="1">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>London</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>22</td>
+                        <td>Paris</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">End of Table</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>HTML Media</h2>
+            <article>
+                <h3>Images</h3>
+                <img src="https://via.placeholder.com/150" alt="Sample Image">
+            </article>
+            <article>
+                <h3>Videos</h3>
+                <video controls width="320" height="240" src="sample-video.mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+            <article>
+                <h3>Audio</h3>
+                <audio controls src="sample-audio.mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HTML Lecture. All rights reserved.</p>
+    </footer>
+</body>
+
+</html></video></section>
