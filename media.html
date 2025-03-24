@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags Example</title>
+</head>
+<body>
+    <h1>HTML Media Tags Example</h1>
+
+    <h2>Image</h2>
+    <img src="example.jpg" alt="Example Image" width="300">
+
+    <h2>Audio</h2>
+    <audio controls src="example-audio.mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video</h2>
+    <video controls src="example-video.mp4" width="400">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Picture</h2>
+    <picture>
+        <source srcset="example-large.jpg" media="(min-width: 800px)">
+        <source srcset="example-small.jpg" media="(max-width: 799px)">
+        <img src="example-default.jpg" alt="Responsive Image">
+    </picture>
+
+</body>
+</html>
